@@ -15,14 +15,15 @@
 
 ## Using Git from the shell
 * Start with `git init` command, that will create a folder on your home drive containing all the metadata/tools git will use
-Use the “add” command to the “stage” to be ready to go in one commit, and “commit” to 
-“Checkout” to go a version
+* Use the `git add [file name]` command to the *stage* to be ready to go in one commit, and ` git commit` to 
+* Use `git checkout [branch name]` to go a version to work on
 
-Branching
-“Master” is an alias pointing to the very latest version of project - holds the hash code of that snapshot
-You can create similar aliases for other commits ca;;ed “tags”
-Branches are a way to test out different solutions or pathways in work simultaneously. Go up branches and to parents to go back
-//“Head” is the version that you’re working on. If you go to a previous version and work experimentally there, “head” changes to the hash of that version
+## Branching
+* *“Master”* is an alias pointing to the very latest version of project - holds the hash code of that snapshot
+    * You can create similar aliases for other commits called *“tags”*
+* Branches are a way to test out different solutions or pathways in work simultaneously. Go up branches and to parents to go back versions
+    * Think of this as a replacement to having to comment out sections of your code when trying different solutions to a problem
+    //“Head” is the version that you’re working on. If you go to a previous version and work experimentally there, “head” changes to the hash of that version
 When you merge = git will create a new version copying the old master and integrate the changes made in the specified branch. That new version has two parents - the old master and the branch og
 Conflicts can occurs bween branches on same fule
 
