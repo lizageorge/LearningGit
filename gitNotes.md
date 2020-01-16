@@ -29,11 +29,14 @@
 * When you merge = git will create a new version copying the old master and integrate the changes made in the specified branch. That new version has two parents - the old master *and* the og branch 
 * Conflicts can occurs bween branches on same file - sometimes git will take a decision (like if one branch's file is empty), sometimes it will throw an error and make you manually integrate the changes.
 
-# Working with others on Github
+# Working on Github
 * Once you have a repository made on your computer, go to your profile and create a repo/ find a repo you're adding to, and get the address to paste into your command line. You should see smth to paste in like this;
     * `git remote add origin https://github.com/lizageorge/LearningGit.git`
     * `git push -u origin master`
 * Use `push` to add to the *origin* repository, and `pull` to copy from it
 * When pushing from your own computer, you can transfer the tags and branches you made too
+* You can use GitHub to work with others, just as you can with any server. GitHub just happens to be publically available
+**Distributed Version Control System** = unlike a *Local VCS*, where all the work and access to it is stored on one main server and the owner of that server has a lot of control/power, in a DVCS every user can “act like the server” but everyone has equal access to the work. 	
+* Also, to confirm identities when committing/pulling work, use a **public-private key**
 
 
