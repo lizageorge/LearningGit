@@ -40,3 +40,9 @@
 * Also, to confirm identities when committing/pulling work, use a **public-private key**
 
 
+# The Process of Working on a Team
+1. Clone the team's remote repository onto your desktop
+2. Create the branch for your feature (if the lead didn't alreay create it for you)
+3. Work on your own branch to complete the feature. Periodically merge the master branch or your teammate's branches into yours to avoid major conflicts later on
+4. Once you're done working, do one last merge from master and resolve any conflicts. Then create a pull request/ask your lead to review the changes to merge into the master branch
+5. Have an ice cream and congragulate yourself on finishing the work :D
